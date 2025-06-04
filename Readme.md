@@ -40,7 +40,7 @@
 **Html Page**
 
     <head>
-	    <link rel="manifest" href="asset/pwa/manifest-admin.json" />
+	    <link rel="manifest" href="asset/pwa/manifest.json" />
     </head>
     
 	<script>try{"serviceWorker"in navigator&&navigator.serviceWorker.register("asset/pwa/sw.js");}catch(r){console.log("Init PWA Errro: "+r.message);}</script>
